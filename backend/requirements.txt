@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+SpeechRecognition
+google-generativeai
+pyttsx3
+deepface
+opencv-python
+pillow
+numpy

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Robot Kyle With Textures
+* source:	https://sketchfab.com/3d-models/robot-kyle-with-textures-28731ca53ccd48aaa67a82ac9aeeaa66
+* author:	That-one-ripper (https://sketchfab.com/GorillaTagModels)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Robot Kyle With Textures" (https://sketchfab.com/3d-models/robot-kyle-with-textures-28731ca53ccd48aaa67a82ac9aeeaa66) by That-one-ripper (https://sketchfab.com/GorillaTagModels) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
