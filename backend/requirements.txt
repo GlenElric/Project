@@ -6,6 +6,8 @@ SpeechRecognition
 google-generativeai
 pyttsx3
 deepface
-opencv-python
+opencv-python==4.8.0.76
 pillow
-numpy
+numpy==1.26.4
+tensorflow==2.16.1
+tf-keras==2.16.0
