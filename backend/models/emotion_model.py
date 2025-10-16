@@ -6,4 +6,3 @@ class EmotionRequest(BaseModel):
 class EmotionResponse(BaseModel):
     emotion: str
     confidence: float
-    avatar_path: str

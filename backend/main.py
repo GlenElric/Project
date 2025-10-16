@@ -4,7 +4,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from routes.emotion import router as emotion_router
 from routes.speech import router as speech_router
 from routes.chat import router as chat_router
-from routes.avatar import router as avatar_router
 
 app = FastAPI(
     title="Voice Chat Agent Backend",
@@ -28,7 +27,6 @@ async def root():
 app.include_router(emotion_router)
 app.include_router(speech_router)
 app.include_router(chat_router)
-app.include_router(avatar_router)
 
 if __name__ == "__main__":
     import uvicorn

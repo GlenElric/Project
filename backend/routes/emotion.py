@@ -1,7 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from models.emotion_model import EmotionRequest, EmotionResponse
 from utils.emotion_detector import detect_emotion
-from utils.avatar_mapper import get_avatar_path
 
 router = APIRouter(prefix="/emotion", tags=["emotion"])
 
@@ -12,8 +11,6 @@ async def analyze_emotion(request: EmotionRequest):
     """
     try:
         result = detect_emotion(request.image)
-        avatar_path = get_avatar_path(result["emotion"])
-        result["avatar_path"] = avatar_path
         return EmotionResponse(**result)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Emotion detection failed: {str(e)}")
